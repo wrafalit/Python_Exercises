@@ -10,3 +10,10 @@ def list_func(my_list):
     
 a = [5, 10, 15, 20, 25]
 print(list_func(a))
+
+
+# def list_func(my_list):
+#      return [my_list[0],my_list[-1]]
+    
+# a = [5, 10, 15, 20, 25]
+# print(list_func(a))
