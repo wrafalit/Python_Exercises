@@ -3,3 +3,14 @@
 
 # Extras:
 # Use binary search.
+
+def element_search(my_list,num):
+     for i in range(len(my_list)):
+         if (my_list[i]) == num:
+             return True
+         else:
+             return False
+    
+a = [5, 10, 15, 20, 25]
+num = 10
+print(element_search(a,num))
