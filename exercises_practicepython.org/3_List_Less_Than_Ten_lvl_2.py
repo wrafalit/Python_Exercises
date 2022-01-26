@@ -12,6 +12,6 @@ def list_less(n1,n2):
     return print([x for x in n1 if x < n2])
 
 a = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
-b = 5
+b = int(input('Write number: ')
   
 list_less(a,b)
