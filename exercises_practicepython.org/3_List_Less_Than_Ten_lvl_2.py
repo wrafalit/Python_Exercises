@@ -9,12 +9,7 @@
 # 3. Ask the user for a number and return a list that contains only elements from the original list a that are smaller than that number given by the user.
 
 def list_less(n1,n2):
-    new_list =[]
-    for i in n1:
-        if i < n2:
-            #print(i)
-            new_list.append(n1[i])
-    print(new_list)
+    return print([x for x in n1 if x < n2])
 
 a = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
 b = 5
