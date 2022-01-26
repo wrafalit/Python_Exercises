@@ -10,3 +10,27 @@
 # Extras:
 # 1 Randomly generate two lists to test this
 # 2 Write this in one line of Python (don’t worry if you can’t figure this out at this point - we’ll get to it soon)
+
+import random
+
+#  it can use ready function use random.sample to create list
+# rand_lis = random.sample(range(0,20),15)
+# print(rand_lis)
+
+# for exercise own function wrote
+def rand_list(n,q):
+    r_list = []
+    for i in range(0,q):
+        i = random.randint(0,n)
+        r_list.append(i)
+    return r_list
+
+def comp_list(a,b):
+    while
+
+a = rand_list(20,15)
+b = rand_list(20,10)
+
+print(a)  # checked random list a
+print(b)  # checked random list b  
+
