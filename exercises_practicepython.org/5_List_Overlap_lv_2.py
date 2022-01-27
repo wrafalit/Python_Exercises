@@ -28,7 +28,7 @@ def comp_list(a,b):
     new_list = []
     for i in range(len(a)):
         if a[i] in b:
-            if a[i] not in new_list:
+            if a[i] not in new_list: # checking duplicate can also use print(set()) to print list number and nod duplicate
                 new_list.append(a[i])
     print(new_list)
 
