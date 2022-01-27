@@ -41,3 +41,6 @@ print(b)  # checked random list b
 
 comp_list(a,b)
 
+# Set List Comprehensions
+print(set([x for x in a if x in b]))
+
