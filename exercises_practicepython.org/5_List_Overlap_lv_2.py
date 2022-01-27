@@ -12,8 +12,7 @@
 # 2 Write this in one line of Python (don’t worry if you can’t figure this out at this point - we’ll get to it soon)
 
 import random
-
-#  it can use ready function use random.sample to create list
+# it can use ready function use random.sample to create list
 # rand_lis = random.sample(range(0,20),15)
 # print(rand_lis)
 
@@ -26,11 +25,18 @@ def rand_list(n,q):
     return r_list
 
 def comp_list(a,b):
-    while
+    new_list = []
+    for i in range(len(a)):
+        if a[i] in b:
+            if a[i] not in new_list:
+                new_list.append(a[i])
+    print(new_list)
 
 a = rand_list(20,15)
 b = rand_list(20,10)
 
 print(a)  # checked random list a
 print(b)  # checked random list b  
+
+comp_list(a,b)
 
