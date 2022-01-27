@@ -24,6 +24,7 @@ def rand_list(n,q):
         r_list.append(i)
     return r_list
 
+# one line comparison useing ser() function print(set(a).intersection(set(b)))
 def comp_list(a,b):
     new_list = []
     for i in range(len(a)):
