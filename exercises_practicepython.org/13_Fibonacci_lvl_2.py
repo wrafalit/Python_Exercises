@@ -6,16 +6,22 @@
 # (Hint: The Fibonnaci seqence is a sequence of numbers where the next number in the sequence is the sum of the previous two numbers in the sequence. 
 #  The sequence looks like this: 1, 1, 2, 3, 5, 8, 13, …)
 
+
 user_num = int(input('How many Fibonnaci numbers to generate? '))
 
 def fibun_func(n):
-    fibu = []
-    a = 1
-    while n>0:
-        for i in range(0,n):
-            a
-            fibu = a +i
-            print(i)
-            n = n-1
+    i = 1
+    if n == 0:
+        fibu = []
+    if n == 1:
+        fibu =[1]
+    if n == 2:
+        fibu = [1,1]
+    if n >2:
+        fibu = [1,1]
+        while i < (n - 1):
+            fibu.append(fibu[i]+fibu[i-1])
+            i += 1
     print(fibu)
+
 fibun_func(user_num)
