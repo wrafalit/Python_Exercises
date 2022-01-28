@@ -16,4 +16,8 @@ def no_dupli(lis):
             new_lis.append(lis[i])
     print(new_lis)
         
+def no_dupli2(lis2):
+    print(set(lis2))
+
 no_dupli(my_list)
+no_dupli2(my_list)
