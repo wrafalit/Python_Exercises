@@ -8,3 +8,12 @@
 
 # Expected output:
 # [1, 4, 9, 16, 25, 36, 49]
+
+# Comprehaniob list
+print([x**2 for x in numbers])
+
+# function
+sq_list = []
+for n in numbers:
+    sq_list.append(n**2)
+print(sq_list)
