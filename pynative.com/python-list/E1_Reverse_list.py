@@ -6,6 +6,8 @@
 # method used
 list1 = [100, 200, 300, 400, 500]
 print(list(reversed(list1)))
+print(list1[::-1])
+
 
 # function + insert used
 print(list1[-1])
@@ -25,3 +27,7 @@ def rever2(lis):
         n=n-1
     return rev_list
 print(rever2(list1))
+
+# reverse used !
+# list1.reverse()
+# print(list1)
