@@ -9,3 +9,6 @@
 list1 = ["Mike", "", "Emma", "Kelly", "", "Brad"]
 
 print([x for x in list1 if x !=''])
+
+# Second solution
+print(list(filter(None,list1)))
