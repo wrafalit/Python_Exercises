@@ -8,3 +8,9 @@
 # s2 = "Kelly"
 
 # Expected Output:  AuKellylt
+
+s1 = "Ault"
+s2 = "Kelly"
+
+mid = int(len(s1)/2)
+print(s1[:mid] + s2 + s1[mid:])
