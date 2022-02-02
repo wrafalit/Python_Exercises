@@ -8,3 +8,15 @@
 # s2 = "Japan"
 
 # Expected Output: AJrpan
+
+s1 = "America"
+s2 = "Japan"
+
+def fir_mid_end(str1,str2):
+    fir = str1[0] + str2[0]
+    mid = str1[int(len(str1)/2)] + str2[int(len(str2)/2)]
+    end = str1[-1] + str2[-1]
+    print(fir + mid + end)
+    
+
+fir_mid_end(s1,s2)
