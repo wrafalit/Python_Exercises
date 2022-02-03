@@ -6,3 +6,8 @@
 # Given: str1 = "Welcome to USA. usa awesome, isn't it?"
 
 # Expected Outcome: The USA count is: 2
+
+str1 = "Welcome to USA. usa awesome, isn't it?"
+
+# solve nr.1
+print('The USA count is: ', str1.upper().count('usa'.upper()))
