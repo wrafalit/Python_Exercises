@@ -15,8 +15,11 @@ for ch in range(len(str1)):
 print(dic)
 
 # Second solution
-
-dic = {}
 for ch in range(len(str1)):
     dic[str1[ch]] = str1.count(str1[ch])
+print(dic)
+
+# Third solution
+for ch in str1:
+    dic[ch] = str1.count(ch) 
 print(dic)
