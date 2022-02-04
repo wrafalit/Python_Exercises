@@ -10,3 +10,6 @@
 
 # After removing empty strings
 # ['Emma', 'Jon', 'Kelly', 'Eric']
+
+str_list = ["Emma", "Jon", "", "Kelly", None, "Eric", ""]
+print([ x for x in str_list if x != '' and x != None])
