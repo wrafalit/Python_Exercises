@@ -14,3 +14,9 @@
 # a
 # data
 # scientist
+
+
+str1 = "Emma-is-a-data-scientist"
+
+for string in str1.split("-"):
+    print(string)
