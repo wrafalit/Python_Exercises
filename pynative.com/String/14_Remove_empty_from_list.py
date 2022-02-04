@@ -13,3 +13,8 @@
 
 str_list = ["Emma", "Jon", "", "Kelly", None, "Eric", ""]
 print([ x for x in str_list if x != '' and x != None])
+
+# Second solution
+filtered = filter(None,str_list)
+filtered_list = list(filtered)
+print(filtered_list)
