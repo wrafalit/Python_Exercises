@@ -13,3 +13,8 @@ Expected output:
 -3
 -2
 -1
+
+i = -10
+while i < 0:
+    print(i)
+    i += 1
