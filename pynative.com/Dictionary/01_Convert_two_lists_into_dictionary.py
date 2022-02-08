@@ -16,3 +16,8 @@ values = [10, 20, 30]
 zipped = zip(keys,values)
 dic = dict(zipped)
 print(dic)
+
+dic = {}
+for n in range(len(keys)):
+    dic.update({keys[n]:values[n]})
+print(dic)
