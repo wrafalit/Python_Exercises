@@ -7,6 +7,12 @@
 # keys = ['Ten', 'Twenty', 'Thirty']
 # values = [10, 20, 30]
 
-# Expected output:
-
+# Expected output:  
 # {'Ten': 10, 'Twenty': 20, 'Thirty': 30}
+
+keys = ['Ten', 'Twenty', 'Thirty']
+values = [10, 20, 30]
+
+zipped = zip(keys,values)
+dic = dict(zipped)
+print(dic)
