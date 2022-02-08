@@ -13,3 +13,7 @@ sampleDict = {
     }
 }
 # Expected output: 80
+
+
+print(sampleDict['class']['student']['marks']['history'])
+print(sampleDict.get('history'))
